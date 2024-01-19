@@ -1,10 +1,10 @@
+
 # Määrittelydokumentti
 
 Koulutusohjelma: tietojenkäsittelytieteen kandidaatti (TKT)
 Dokumentaatiossa käytetty kieli: suomi
 
-
-Työksi valikoitui 2048 peli, jota pelataan algoritmilla.
+Työksi valikoitui 2048 peli, jota algoritmi pelaa.
 
 ## Kielivalinta
 
@@ -47,4 +47,3 @@ Aikavaativuus on O((4*2*b)^d) eli käytännössä O(b^d) missä b on keskimäär
 Zaky, A. (2022). Minimax and expectimax algorithm to solve 2048
 
 Melkó, E., & Nagy, B. (2007). Optimal strategy in games with chance nodes. Acta Cybernetica, 18(2), 171-192.
-
