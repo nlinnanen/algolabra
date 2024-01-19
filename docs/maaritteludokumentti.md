@@ -16,7 +16,7 @@ Valittu algoritmi on [expectiminimax](https://en.wikipedia.org/wiki/Expectiminim
 
 Algoritmia muunnellaan niin, että siinä on vain maksimoija- ja satunnaisnodet. Minimointi-nodeja ei tarvita, koska peliä pelaa vain yksi pelaaja.
 
-Satunnaisodeja on kahdessa kohtaa peliä: mihin kohtaan uusi ruutu tulee ja onko se 4 vai 2. Uusien ruutujen mahdollisia paikkoja on siis muuttuva määrä riippuen pelin tilasta. Uuden ruudun paikka valitaan satunnaisesti, mutta todennäköisyydet ovat eri suuret eri paikoissa. Uuden ruudun arvo valitaan myös satunnaisesti, mutta todennäköisyydet ovat 0.9 numerolle kaksi ja 0.1 numerolle neljä. Illuustraatio algoritmin toiminnasta:
+Satunnaisodeja on kahdessa kohtaa peliä: mihin kohtaan uusi ruutu tulee ja onko se 4 vai 2. Uusien ruutujen mahdollisia paikkoja on siis muuttuva määrä riippuen pelin tilasta. Uuden ruudun paikka valitaan satunnaisesti, mutta todennäköisyydet ovat eri suuret eri paikoissa. Uuden ruudun arvo valitaan myös satunnaisesti, mutta todennäköisyydet ovat 0.9 numerolle kaksi ja 0.1 numerolle neljä. Illuustraatio algoritmin toiminnasta (vain yksi haara pelipuusta piirretty selkeyden vuoksi)):
 
 ```mermaid
 flowchart TB
